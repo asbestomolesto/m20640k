@@ -1,0 +1,23 @@
+blockop.c	0x200
+		0x0201 assembly part
+		0x0301 ??? 
+
+		blockno > 0x460 - access outa bounds
+
+pcosdir.h maybe
+
+roserv.c	0x200 main disk block
+
+rwserv.c	286720
+		1088 * 256
+		0x220
+		286720 (1120 blocks)
+		0x200 in vari punti
+
+util.c		0x202 in vari punti
+		transbuf malloc 300000 perche' secondo me s'e' 
+		rotto il cazzo
+		anche se lo usa per check su "file too big"... 
+		
+		
+	
